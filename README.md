@@ -15,16 +15,22 @@ This repository contains the code for a simple calculator that supports  mathema
 
 bash
 g++ test.cpp calculator.cpp -o calculator_test
+
 ./calculator_test
 
 
 ### With CMake
 
 bash
+
 mkdir build
+
 cd build
+
 cmake ..
+
 make
+
 ./calculator_test
 
 
